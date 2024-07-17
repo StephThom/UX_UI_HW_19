@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Stephanie Thomas</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Stephanie Thomas</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="About" onclick="togglemenu()">About</a></li>
+                <li><a href="Experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="Projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="Contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section class="Home" id="Home">
+        <div class="Home__pic-container">
+            <img src="./Assets/Black Minimal Photo Personal Quote Instagram Story.png" alt="Profile Picture">
+            <div class="section-text">
+                <h1 class="title">Stephanie Thomas</h1>
+                <p class="section_text_p2">Front End Developer</p>
+                <div class="button-container">
+                    <button class="button button-color-2" onclick="window.open('./Assets/Resume.pdf')">Download CV
+                    </button>
+                    <button class="button button-color-1" onclick="location.href='./#contact'">Contact Info
+                    </button>
+                </div>
+                <div id="socials-container">
+                    <img src="./Assets/L2.png" alt="LinkedIn" class="icon"
+                        onclick="location.href='https://www.linkedin.com/in/stephanie-thomas-27995050/'">
+                    <img src="./Assets/Github Logo.jpeg" alt="GitHub" class="icon"
+                        onclick="location.href='https://github.com/StephThom'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="About" id="About">
+        <div class="About-video">
+            <video width="800" height="600" autoplay loop muted
+                src="./Assets/Grey White Animated Simple Photo Hello Tuesday Mobile Video.mp4"></video>
+        </div>
+        <div class="About-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hello,</h3>
+            <p>I am a military spouse with a deep passion for creativity and technology.
+                I own a thriving paper craft business where I get to express my love for intricate designs and handmade
+                art.
+                Alongside this, I work as a front-end engineer, UX researcher, and UI designer, combining my technical
+                skills with a keen eye for user-centric design.
+                I'm always eager to learn and expand my creative horizons, particularly in the digital world.
+                My goal is to continually grow and innovate, blending my artistic talents with cutting-edge technology
+                to create seamless and beautiful user experiences.</p>
+        </div>
+    </section>
+
+    <section class="Experience" id="Experience">
+        <h2 class="heading">My <span>Experience</span></h2>
+        <div class="Experience-container">
+            <div class="Experience-box">
+                <i class='bx bxl-visual-studio' style='color:#ffffff'></i>
+                <h3>Web Development</h3>
+                <p>As a Web Developer, I am dedicated to building robust, scalable, and user-friendly websites and web
+                    applications. I work with
+                    various programming languages, frameworks, and tools to create responsive and visually appealing
+                    interfaces. My expertise lies
+                    in front-end development, where I transform design mockups into functional code, ensuring
+                    compatibility across different browsers
+                    and devices. I am committed to writing clean, efficient code and following best practices to deliver
+                    high-quality digital products
+                    that meet user needs and business objectives.</p>
+            </div>
+
+            <div class="Experience-box">
+                <i class='bx bx-search-alt' style='color:#ffffff'></i>
+                <h3>UX/UI Researcher</h3>
+                <p>As a UX/UI Researcher, my focus is on understanding user behaviors, needs, and motivations through
+                    various research methods,
+                    such as user interviews, surveys, and usability testing. I analyze qualitative and quantitative data
+                    to uncover insights that
+                    drive design decisions and improve user experiences. My goal is to bridge the gap between users and
+                    designers, ensuring that
+                    products are intuitive, efficient, and delightful to use. I am passionate about creating
+                    user-centric designs that solve real
+                    problems and enhance the overall digital experience.</p>
+            </div>
+
+            <div class="Experience-box">
+                <i class='bx bx-desktop' style='color:#ffffff'></i>
+                <h3>Digital Marketing</h3>
+                <p>In the realm of Digital Marketing, I specialize in creating and executing online marketing strategies
+                    that drive brand awareness,
+                    engagement, and conversions. I leverage a mix of SEO, content marketing, social media, email
+                    campaigns, and paid advertising to reach
+                    and resonate with target audiences. By analyzing campaign performance and user behavior data, I
+                    continuously optimize strategies to achieve
+                    better results and ROI. My aim is to build meaningful connections between brands and their
+                    customers, fostering loyalty and growth in the digital landscape.
+                </p>
+            </div>
+        </div>
+    </section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <section class="Projects" id="Projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="photo-gallery">
+            <div class="column">
+                <div class="photo">Eventure
+                    <img src="./Assets/Eventure (1).png" alt="Eventure">
+                </div>
+            </div>
+            <div class="column">
+                <div class="photo">Greenpeace
+                    <img src="./Assets/GreenPeace (1).png" alt="Greenpeace">
+                </div>
+            </div>
+            <div class="column">
+                <div class="photo">Federal Trade Commission
+                    <img src="./Assets/Photo Simple Modern Balance Instagram Story.png" alt="FTC">
+                </div>
+            </div> 
+        </div>
+    </section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <section class="Contact" id="Contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Email Address" id="email" class="item" autocomplete="off">
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Phone Number" id="phone" class="item" autocomplete="off">
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Subject" id="subject" class="item" autocomplete="off">
+                </div>
+            </div>
+
+            <div class="textarea-field field">
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" class="item" autocomplete="off"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>    
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>  
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Stephanie Thomas. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
